@@ -1,0 +1,98 @@
+<header class="topbar">
+  <div class="container">
+    <div class="row">
+      <!-- social icon-->
+      <div class="col-sm-6 col-md-6">
+        <ul class="social-network">
+          <li>
+            <a class="waves-effect waves-dark" href="https://www.facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a class="waves-effect waves-dark" href="https://twitter.com/"
+              ><i class="fa fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a class="waves-effect waves-dark" href="https://www.linkedin.com/"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a class="waves-effect waves-dark" href="https://in.pinterest.com/"
+              ><i class="fa fa-pinterest"></i
+            ></a>
+          </li>
+          <li>
+            <a class="waves-effect waves-dark" href="https://google.com/"
+              ><i class="fa fa-google-plus"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-6">
+        <div class="row">
+          <ul class="info">
+            <li>
+              <i class="icon-info-blocks material-icons">question_answer</i
+              ><span>info@wonne.com</span>
+            </li>
+            <li>
+              <i class="icon-info-blocks material-icons">perm_phone_msg</i
+              ><span> 0172 5048264</span>
+            </li>
+          </ul>
+          <div class="clr"></div>
+        </div>
+      </div>
+      <!-- info -->
+    </div>
+  </div>
+</header>
+<!-- start header -->
+<header>
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" routerLink="" >
+          <img
+            data-secure="false"
+            src="assets/img/logo.jpg"
+            alt="Wonne logo"
+            style="margin-top: 15px"
+          />
+        </a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+            <a class="waves-effect waves-dark" routerLink="">Home</a>
+          </li>
+          <li [routerLinkActive]="['active']">
+            <a class="waves-effect waves-dark" routerLink="About">About us</a>
+          </li>
+          <li [routerLinkActive]="['active']">
+            <a class="waves-effect waves-dark" routerLink="Products"
+              >Products</a
+            >
+          </li>
+          <li [routerLinkActive]="['active']">
+            <a class="waves-effect waves-dark" routerLink="Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
